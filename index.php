@@ -8,17 +8,16 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>NTIC_Depression</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <a type=button href="./Infos.php">
-            <button name="btnInfo">Informations</button>
-        </a>
-        
-        <a type=button href="./Diagnostique.php">
+        <a href="./Infos.php" class="button button1">Informations</a>
+
+        <a href="./Diagnostique.php">
             <button name="btnDiag">Diagnostique</button>
         </a>
-        
-        <a type=button href="./Contact.php">
+
+        <a href="./Contact.php">
             <button name="btnContact">Contact</button>
         </a>
     </body>
